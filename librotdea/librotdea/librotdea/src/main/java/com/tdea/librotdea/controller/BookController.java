@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@Controller
+@RestController
 @RequestMapping(value = "/api/books", produces = MediaType.APPLICATION_JSON_VALUE)
 @Tag(name = "Book API", description = "CRUD Operations for Managing books")
 public class BookController {
